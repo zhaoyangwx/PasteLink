@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PasteLink", "PasteLink\PasteLink.vbproj", "{B013DA18-691A-4811-B741-D16E6FD22B28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B013DA18-691A-4811-B741-D16E6FD22B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B013DA18-691A-4811-B741-D16E6FD22B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B013DA18-691A-4811-B741-D16E6FD22B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B013DA18-691A-4811-B741-D16E6FD22B28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F59F233C-6EC5-4268-BB36-32DA65EC3AB0}
+	EndGlobalSection
+EndGlobal
