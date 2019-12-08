@@ -1,0 +1,21 @@
+d:\Documents\Visual Studio 2017\Projects\PasteLink\PasteLink\obj\Debug\PasteLink.vbprojAssemblyReference.cache
+d:\Documents\Visual Studio 2017\Projects\PasteLink\PasteLink\obj\Debug\PasteLink.Resources.resources
+d:\Documents\Visual Studio 2017\Projects\PasteLink\PasteLink\obj\Debug\PasteLink.vbproj.GenerateResource.cache
+d:\Documents\Visual Studio 2017\Projects\PasteLink\PasteLink\obj\Debug\PasteLink.vbproj.CoreCompileInputs.cache
+d:\Documents\Visual Studio 2017\Projects\PasteLink\PasteLink\bin\Debug\PasteLink.exe.config
+d:\Documents\Visual Studio 2017\Projects\PasteLink\PasteLink\bin\Debug\PasteLink.exe
+d:\Documents\Visual Studio 2017\Projects\PasteLink\PasteLink\bin\Debug\PasteLink.pdb
+d:\Documents\Visual Studio 2017\Projects\PasteLink\PasteLink\bin\Debug\PasteLink.xml
+d:\Documents\Visual Studio 2017\Projects\PasteLink\PasteLink\obj\Debug\PasteLink.exe
+d:\Documents\Visual Studio 2017\Projects\PasteLink\PasteLink\obj\Debug\PasteLink.xml
+d:\Documents\Visual Studio 2017\Projects\PasteLink\PasteLink\obj\Debug\PasteLink.pdb
+C:\Users\HPCAdmin\source\repos\PasteLink\PasteLink\bin\Debug\PasteLink.exe.config
+C:\Users\HPCAdmin\source\repos\PasteLink\PasteLink\bin\Debug\PasteLink.exe
+C:\Users\HPCAdmin\source\repos\PasteLink\PasteLink\bin\Debug\PasteLink.pdb
+C:\Users\HPCAdmin\source\repos\PasteLink\PasteLink\bin\Debug\PasteLink.xml
+C:\Users\HPCAdmin\source\repos\PasteLink\PasteLink\obj\Debug\PasteLink.vbprojAssemblyReference.cache
+C:\Users\HPCAdmin\source\repos\PasteLink\PasteLink\obj\Debug\PasteLink.Resources.resources
+C:\Users\HPCAdmin\source\repos\PasteLink\PasteLink\obj\Debug\PasteLink.vbproj.GenerateResource.cache
+C:\Users\HPCAdmin\source\repos\PasteLink\PasteLink\obj\Debug\PasteLink.exe
+C:\Users\HPCAdmin\source\repos\PasteLink\PasteLink\obj\Debug\PasteLink.xml
+C:\Users\HPCAdmin\source\repos\PasteLink\PasteLink\obj\Debug\PasteLink.pdb
