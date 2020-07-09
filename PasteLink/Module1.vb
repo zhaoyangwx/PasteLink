@@ -3,6 +3,8 @@ Module Module1
     Public sfile, sdir, efile, edir As Integer
     Public err As Boolean = False
     Public LinkDIR As Boolean = True
+    Public LinkParam As String = "J"
+    Public LinkParamF As String = ""
     Public Class ConsoleOutput
         Private Shared gWorkingDirectory As String = Environment.GetFolderPath(Environment.SpecialFolder.Personal)
         Public Shared Property WorkingDirectory() As String
@@ -51,8 +53,8 @@ Module Module1
                                 edir += 1
                             Else
                                 Console.WriteLine("*" & di.Attributes.ToString & "")
-                                Console.WriteLine("mklink" & " /j """ & tar & di.Name & """ """ & di.FullName & """")
-                                Console.WriteLine(">>" & ConsoleOutput.ExcuteCmd("mklink" & " /j """ & tar & di.Name & """ """ & di.FullName & """"))
+                                Console.WriteLine("mklink" & " /" & LinkParam & " """ & tar & di.Name & """ """ & di.FullName & """")
+                                Console.WriteLine(">>" & ConsoleOutput.ExcuteCmd("mklink" & " /" & LinkParam & " """ & tar & di.Name & """ """ & di.FullName & """"))
                                 sdir += 1
                             End If
                         Else
@@ -83,9 +85,10 @@ Module Module1
                             err = True
                             efile += 1
                         Else
+
                             Console.WriteLine("*" & fl.Attributes.ToString & "")
-                            Console.WriteLine("mklink" & " """ & tar & fl.Name & """ """ & fl.FullName & """")
-                            Console.WriteLine(">>" & ConsoleOutput.ExcuteCmd("mklink" & " """ & tar & fl.Name & """ """ & fl.FullName & """"))
+                            Console.WriteLine("mklink" & LinkParamF & " """ & tar & fl.Name & """ """ & fl.FullName & """")
+                            Console.WriteLine(">>" & ConsoleOutput.ExcuteCmd("mklink" & LinkParamF & " """ & tar & fl.Name & """ """ & fl.FullName & """"))
                             sfile += 1
                         End If
                     Else
@@ -110,6 +113,12 @@ Module Module1
         If tar.EndsWith(">") Then
             tar = tar.Replace(">", "")
             LinkDIR = False
+        End If
+        If tar.EndsWith("<") Then
+            tar = tar.Replace("<", "")
+            LinkDIR = False
+            LinkParam = "H"
+            LinkParamF = " /H"
         End If
         Dim src() As String = Clipboard.GetFileDropList.Cast(Of String).ToArray
         If tar = "" Then tar = My.Computer.FileSystem.CurrentDirectory
